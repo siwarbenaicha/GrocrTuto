@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2AC3BB8E78670B50C53722 /* Pods_GrocrTutoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E19EFABC55D32D953B4566E /* Pods_GrocrTutoUITests.framework */; };
+		8943A51722CA1A20005DEED0 /* GroceryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8943A51622CA1A20005DEED0 /* GroceryListTableViewController.swift */; };
+		8943A51A22CA2489005DEED0 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8943A51922CA2489005DEED0 /* GroceryItem.swift */; };
+		8943A51C22CA4D01005DEED0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8943A51B22CA4D01005DEED0 /* User.swift */; };
+		89CA4B5422CA0C1900E31182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA4B5322CA0C1900E31182 /* AppDelegate.swift */; };
+		89CA4B5622CA0C1900E31182 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA4B5522CA0C1900E31182 /* ViewController.swift */; };
+		89CA4B5922CA0C1900E31182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CA4B5722CA0C1900E31182 /* Main.storyboard */; };
+		89CA4B5C22CA0C1900E31182 /* GrocrTuto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89CA4B5A22CA0C1900E31182 /* GrocrTuto.xcdatamodeld */; };
+		89CA4B5E22CA0C1B00E31182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89CA4B5D22CA0C1B00E31182 /* Assets.xcassets */; };
+		89CA4B6122CA0C1B00E31182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CA4B5F22CA0C1B00E31182 /* LaunchScreen.storyboard */; };
+		89CA4B6C22CA0C1B00E31182 /* GrocrTutoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA4B6B22CA0C1B00E31182 /* GrocrTutoTests.swift */; };
+		89CA4B7722CA0C1B00E31182 /* GrocrTutoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA4B7622CA0C1B00E31182 /* GrocrTutoUITests.swift */; };
+		B278EC92A89A89F656ABE8F7 /* Pods_GrocrTuto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED73D7BAB068C2DFEBA98CD4 /* Pods_GrocrTuto.framework */; };
+		DB788DF076D4327EDB4D9F60 /* Pods_GrocrTutoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DE0648571812C66A7A0CD1 /* Pods_GrocrTutoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89CA4B6822CA0C1B00E31182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89CA4B4822CA0C1800E31182 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89CA4B4F22CA0C1800E31182;
+			remoteInfo = GrocrTuto;
+		};
+		89CA4B7322CA0C1B00E31182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89CA4B4822CA0C1800E31182 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89CA4B4F22CA0C1800E31182;
+			remoteInfo = GrocrTuto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E372B33082BBE918B39C3E /* Pods-GrocrTuto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrocrTuto.debug.xcconfig"; path = "Target Support Files/Pods-GrocrTuto/Pods-GrocrTuto.debug.xcconfig"; sourceTree = "<group>"; };
+		13C25C135B3C1D8E79C3CBA5 /* Pods-GrocrTutoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrocrTutoUITests.release.xcconfig"; path = "Target Support Files/Pods-GrocrTutoUITests/Pods-GrocrTutoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		41FFE5BE95124B448B8A7B1E /* Pods-GrocrTutoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrocrTutoUITests.debug.xcconfig"; path = "Target Support Files/Pods-GrocrTutoUITests/Pods-GrocrTutoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		431C26EC1D6B7B947DF9E2B3 /* Pods-GrocrTuto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrocrTuto.release.xcconfig"; path = "Target Support Files/Pods-GrocrTuto/Pods-GrocrTuto.release.xcconfig"; sourceTree = "<group>"; };
+		6E19EFABC55D32D953B4566E /* Pods_GrocrTutoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrocrTutoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5B2CDEBF2364B1568DCA8C /* Pods-GrocrTutoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrocrTutoTests.debug.xcconfig"; path = "Target Support Files/Pods-GrocrTutoTests/Pods-GrocrTutoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8943A51622CA1A20005DEED0 /* GroceryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewController.swift; sourceTree = "<group>"; };
+		8943A51922CA2489005DEED0 /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		8943A51B22CA4D01005DEED0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		89CA4B5022CA0C1900E31182 /* GrocrTuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrocrTuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89CA4B5322CA0C1900E31182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89CA4B5522CA0C1900E31182 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89CA4B5822CA0C1900E31182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89CA4B5B22CA0C1900E31182 /* GrocrTuto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GrocrTuto.xcdatamodel; sourceTree = "<group>"; };
+		89CA4B5D22CA0C1B00E31182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89CA4B6022CA0C1B00E31182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89CA4B6222CA0C1B00E31182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89CA4B6722CA0C1B00E31182 /* GrocrTutoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrocrTutoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89CA4B6B22CA0C1B00E31182 /* GrocrTutoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocrTutoTests.swift; sourceTree = "<group>"; };
+		89CA4B6D22CA0C1B00E31182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89CA4B7222CA0C1B00E31182 /* GrocrTutoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrocrTutoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89CA4B7622CA0C1B00E31182 /* GrocrTutoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocrTutoUITests.swift; sourceTree = "<group>"; };
+		89CA4B7822CA0C1B00E31182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89CA4B8622CA0CE000E31182 /* GoogleService-Info-4.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-4.plist"; sourceTree = "<group>"; };
+		A1DE0648571812C66A7A0CD1 /* Pods_GrocrTutoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrocrTutoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED73D7BAB068C2DFEBA98CD4 /* Pods_GrocrTuto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrocrTuto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8A8B97CB1ABDF1027BF470 /* Pods-GrocrTutoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrocrTutoTests.release.xcconfig"; path = "Target Support Files/Pods-GrocrTutoTests/Pods-GrocrTutoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89CA4B4D22CA0C1800E31182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B278EC92A89A89F656ABE8F7 /* Pods_GrocrTuto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89CA4B6422CA0C1B00E31182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB788DF076D4327EDB4D9F60 /* Pods_GrocrTutoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89CA4B6F22CA0C1B00E31182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2AC3BB8E78670B50C53722 /* Pods_GrocrTutoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8943A51522CA198B005DEED0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				89CA4B5522CA0C1900E31182 /* ViewController.swift */,
+				8943A51622CA1A20005DEED0 /* GroceryListTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8943A51822CA2432005DEED0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8943A51922CA2489005DEED0 /* GroceryItem.swift */,
+				8943A51B22CA4D01005DEED0 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		89CA4B4722CA0C1800E31182 = {
+			isa = PBXGroup;
+			children = (
+				89CA4B5222CA0C1900E31182 /* GrocrTuto */,
+				89CA4B6A22CA0C1B00E31182 /* GrocrTutoTests */,
+				89CA4B7522CA0C1B00E31182 /* GrocrTutoUITests */,
+				89CA4B5122CA0C1900E31182 /* Products */,
+				B1FC9E9A1C9C27E40E925A4B /* Pods */,
+				AC880F79402580BE2A92FA2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89CA4B5122CA0C1900E31182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89CA4B5022CA0C1900E31182 /* GrocrTuto.app */,
+				89CA4B6722CA0C1B00E31182 /* GrocrTutoTests.xctest */,
+				89CA4B7222CA0C1B00E31182 /* GrocrTutoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89CA4B5222CA0C1900E31182 /* GrocrTuto */ = {
+			isa = PBXGroup;
+			children = (
+				8943A51822CA2432005DEED0 /* Models */,
+				8943A51522CA198B005DEED0 /* Controllers */,
+				89CA4B5722CA0C1900E31182 /* Main.storyboard */,
+				89CA4B5322CA0C1900E31182 /* AppDelegate.swift */,
+				89CA4B5D22CA0C1B00E31182 /* Assets.xcassets */,
+				89CA4B5F22CA0C1B00E31182 /* LaunchScreen.storyboard */,
+				89CA4B6222CA0C1B00E31182 /* Info.plist */,
+				89CA4B8622CA0CE000E31182 /* GoogleService-Info-4.plist */,
+				89CA4B5A22CA0C1900E31182 /* GrocrTuto.xcdatamodeld */,
+			);
+			path = GrocrTuto;
+			sourceTree = "<group>";
+		};
+		89CA4B6A22CA0C1B00E31182 /* GrocrTutoTests */ = {
+			isa = PBXGroup;
+			children = (
+				89CA4B6B22CA0C1B00E31182 /* GrocrTutoTests.swift */,
+				89CA4B6D22CA0C1B00E31182 /* Info.plist */,
+			);
+			path = GrocrTutoTests;
+			sourceTree = "<group>";
+		};
+		89CA4B7522CA0C1B00E31182 /* GrocrTutoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89CA4B7622CA0C1B00E31182 /* GrocrTutoUITests.swift */,
+				89CA4B7822CA0C1B00E31182 /* Info.plist */,
+			);
+			path = GrocrTutoUITests;
+			sourceTree = "<group>";
+		};
+		AC880F79402580BE2A92FA2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED73D7BAB068C2DFEBA98CD4 /* Pods_GrocrTuto.framework */,
+				A1DE0648571812C66A7A0CD1 /* Pods_GrocrTutoTests.framework */,
+				6E19EFABC55D32D953B4566E /* Pods_GrocrTutoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1FC9E9A1C9C27E40E925A4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04E372B33082BBE918B39C3E /* Pods-GrocrTuto.debug.xcconfig */,
+				431C26EC1D6B7B947DF9E2B3 /* Pods-GrocrTuto.release.xcconfig */,
+				6F5B2CDEBF2364B1568DCA8C /* Pods-GrocrTutoTests.debug.xcconfig */,
+				FE8A8B97CB1ABDF1027BF470 /* Pods-GrocrTutoTests.release.xcconfig */,
+				41FFE5BE95124B448B8A7B1E /* Pods-GrocrTutoUITests.debug.xcconfig */,
+				13C25C135B3C1D8E79C3CBA5 /* Pods-GrocrTutoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89CA4B4F22CA0C1800E31182 /* GrocrTuto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89CA4B7B22CA0C1B00E31182 /* Build configuration list for PBXNativeTarget "GrocrTuto" */;
+			buildPhases = (
+				74A9911EDB4AA7AFDFB0C7DC /* [CP] Check Pods Manifest.lock */,
+				89CA4B4C22CA0C1800E31182 /* Sources */,
+				89CA4B4D22CA0C1800E31182 /* Frameworks */,
+				89CA4B4E22CA0C1800E31182 /* Resources */,
+				67937393CF73E8C7995BE6E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrocrTuto;
+			productName = GrocrTuto;
+			productReference = 89CA4B5022CA0C1900E31182 /* GrocrTuto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89CA4B6622CA0C1B00E31182 /* GrocrTutoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89CA4B7E22CA0C1B00E31182 /* Build configuration list for PBXNativeTarget "GrocrTutoTests" */;
+			buildPhases = (
+				A29BC6D7C5C220F388F3C421 /* [CP] Check Pods Manifest.lock */,
+				89CA4B6322CA0C1B00E31182 /* Sources */,
+				89CA4B6422CA0C1B00E31182 /* Frameworks */,
+				89CA4B6522CA0C1B00E31182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89CA4B6922CA0C1B00E31182 /* PBXTargetDependency */,
+			);
+			name = GrocrTutoTests;
+			productName = GrocrTutoTests;
+			productReference = 89CA4B6722CA0C1B00E31182 /* GrocrTutoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89CA4B7122CA0C1B00E31182 /* GrocrTutoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89CA4B8122CA0C1B00E31182 /* Build configuration list for PBXNativeTarget "GrocrTutoUITests" */;
+			buildPhases = (
+				888FBA5B142EE4EE28AC6902 /* [CP] Check Pods Manifest.lock */,
+				89CA4B6E22CA0C1B00E31182 /* Sources */,
+				89CA4B6F22CA0C1B00E31182 /* Frameworks */,
+				89CA4B7022CA0C1B00E31182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89CA4B7422CA0C1B00E31182 /* PBXTargetDependency */,
+			);
+			name = GrocrTutoUITests;
+			productName = GrocrTutoUITests;
+			productReference = 89CA4B7222CA0C1B00E31182 /* GrocrTutoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89CA4B4822CA0C1800E31182 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mobelite-LABS";
+				TargetAttributes = {
+					89CA4B4F22CA0C1800E31182 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					89CA4B6622CA0C1B00E31182 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 89CA4B4F22CA0C1800E31182;
+					};
+					89CA4B7122CA0C1B00E31182 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 89CA4B4F22CA0C1800E31182;
+					};
+				};
+			};
+			buildConfigurationList = 89CA4B4B22CA0C1800E31182 /* Build configuration list for PBXProject "GrocrTuto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89CA4B4722CA0C1800E31182;
+			productRefGroup = 89CA4B5122CA0C1900E31182 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89CA4B4F22CA0C1800E31182 /* GrocrTuto */,
+				89CA4B6622CA0C1B00E31182 /* GrocrTutoTests */,
+				89CA4B7122CA0C1B00E31182 /* GrocrTutoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89CA4B4E22CA0C1800E31182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CA4B6122CA0C1B00E31182 /* LaunchScreen.storyboard in Resources */,
+				89CA4B5E22CA0C1B00E31182 /* Assets.xcassets in Resources */,
+				89CA4B5922CA0C1900E31182 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89CA4B6522CA0C1B00E31182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89CA4B7022CA0C1B00E31182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67937393CF73E8C7995BE6E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrocrTuto/Pods-GrocrTuto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrocrTuto/Pods-GrocrTuto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrocrTuto/Pods-GrocrTuto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74A9911EDB4AA7AFDFB0C7DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrocrTuto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		888FBA5B142EE4EE28AC6902 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrocrTutoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A29BC6D7C5C220F388F3C421 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrocrTutoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89CA4B4C22CA0C1800E31182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CA4B5C22CA0C1900E31182 /* GrocrTuto.xcdatamodeld in Sources */,
+				8943A51722CA1A20005DEED0 /* GroceryListTableViewController.swift in Sources */,
+				8943A51C22CA4D01005DEED0 /* User.swift in Sources */,
+				89CA4B5622CA0C1900E31182 /* ViewController.swift in Sources */,
+				8943A51A22CA2489005DEED0 /* GroceryItem.swift in Sources */,
+				89CA4B5422CA0C1900E31182 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89CA4B6322CA0C1B00E31182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CA4B6C22CA0C1B00E31182 /* GrocrTutoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89CA4B6E22CA0C1B00E31182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CA4B7722CA0C1B00E31182 /* GrocrTutoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89CA4B6922CA0C1B00E31182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89CA4B4F22CA0C1800E31182 /* GrocrTuto */;
+			targetProxy = 89CA4B6822CA0C1B00E31182 /* PBXContainerItemProxy */;
+		};
+		89CA4B7422CA0C1B00E31182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89CA4B4F22CA0C1800E31182 /* GrocrTuto */;
+			targetProxy = 89CA4B7322CA0C1B00E31182 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89CA4B5722CA0C1900E31182 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89CA4B5822CA0C1900E31182 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89CA4B5F22CA0C1B00E31182 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89CA4B6022CA0C1B00E31182 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89CA4B7922CA0C1B00E31182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89CA4B7A22CA0C1B00E31182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89CA4B7C22CA0C1B00E31182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E372B33082BBE918B39C3E /* Pods-GrocrTuto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrocrTuto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobelite.test.GrocrTuto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89CA4B7D22CA0C1B00E31182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431C26EC1D6B7B947DF9E2B3 /* Pods-GrocrTuto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrocrTuto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobelite.test.GrocrTuto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89CA4B7F22CA0C1B00E31182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5B2CDEBF2364B1568DCA8C /* Pods-GrocrTutoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrocrTutoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobelite.test.GrocrTutoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrocrTuto.app/GrocrTuto";
+			};
+			name = Debug;
+		};
+		89CA4B8022CA0C1B00E31182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8A8B97CB1ABDF1027BF470 /* Pods-GrocrTutoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrocrTutoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobelite.test.GrocrTutoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrocrTuto.app/GrocrTuto";
+			};
+			name = Release;
+		};
+		89CA4B8222CA0C1B00E31182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41FFE5BE95124B448B8A7B1E /* Pods-GrocrTutoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrocrTutoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobelite.test.GrocrTutoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrocrTuto;
+			};
+			name = Debug;
+		};
+		89CA4B8322CA0C1B00E31182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13C25C135B3C1D8E79C3CBA5 /* Pods-GrocrTutoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GrocrTutoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobelite.test.GrocrTutoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrocrTuto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89CA4B4B22CA0C1800E31182 /* Build configuration list for PBXProject "GrocrTuto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CA4B7922CA0C1B00E31182 /* Debug */,
+				89CA4B7A22CA0C1B00E31182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89CA4B7B22CA0C1B00E31182 /* Build configuration list for PBXNativeTarget "GrocrTuto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CA4B7C22CA0C1B00E31182 /* Debug */,
+				89CA4B7D22CA0C1B00E31182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89CA4B7E22CA0C1B00E31182 /* Build configuration list for PBXNativeTarget "GrocrTutoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CA4B7F22CA0C1B00E31182 /* Debug */,
+				89CA4B8022CA0C1B00E31182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89CA4B8122CA0C1B00E31182 /* Build configuration list for PBXNativeTarget "GrocrTutoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CA4B8222CA0C1B00E31182 /* Debug */,
+				89CA4B8322CA0C1B00E31182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		89CA4B5A22CA0C1900E31182 /* GrocrTuto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				89CA4B5B22CA0C1900E31182 /* GrocrTuto.xcdatamodel */,
+			);
+			currentVersion = 89CA4B5B22CA0C1900E31182 /* GrocrTuto.xcdatamodel */;
+			path = GrocrTuto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 89CA4B4822CA0C1800E31182 /* Project object */;
+}
